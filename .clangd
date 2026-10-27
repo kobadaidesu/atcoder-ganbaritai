@@ -1,0 +1,10 @@
+# Zed (clangd) 用。#include "cp.hpp" と bits/stdc++.h を解決させる
+CompileFlags:
+  Compiler: /opt/homebrew/bin/g++-16
+  Add: [-std=gnu++20, -I/Users/kobadai/Documents/atcoder/include]
+
+# 「このヘッダーは直接使われていません」の警告を出さない
+# (bits/stdc++.h は全部入りなので常にこの警告が出てしまう)
+Diagnostics:
+  UnusedIncludes: None
+  MissingIncludes: None

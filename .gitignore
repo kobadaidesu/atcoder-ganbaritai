@@ -1,3 +1,5 @@
 # cptest が作るコンパイル済みバイナリ
 *.out
+# cpsubmit が提出用に一時的に作るファイル
+*.submit.cpp
 .DS_Store
