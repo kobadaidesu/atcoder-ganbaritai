@@ -1,5 +1,6 @@
-# cptest が作るコンパイル済みバイナリ
+# cptest が作るコンパイル済みバイナリ (test/ の期待出力 sample-N.out は除外しない)
 *.out
+!**/test/*.out
 # cpsubmit が提出用に一時的に作るファイル
 *.submit.cpp
 .DS_Store
